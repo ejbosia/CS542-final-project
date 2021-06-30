@@ -11,8 +11,10 @@ pip install -r requirements.txt
 *I would recommend looking at this: the size of the data, models, and training time are significant*
 
 All of the results and models are available on the SCC in */projectnb/cs542sp/netflix_wrw2/CS542-final-project/*. To view, open a jupyter session with these parameters:
-| modules            | python3/3.8.10                                                               |
+
+| Parameter          | Value                                                                        |
 |--------------------|------------------------------------------------------------------------------|
+| modules            | python3/3.8.10                                                               |
 | prelaunch commands | source /projectnb/cs542sp/netflix_wrw2/CS542-final-project/venv/bin/activate |
 | interface          | notebook                                                                     |
 | working directory  | /projectnb/cs542sp/netflix_wrw2/CS542-final-project/                         |
