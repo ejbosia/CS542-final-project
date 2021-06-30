@@ -1,12 +1,6 @@
 # cs542_ml_project
 Final project for CS542 (machine learning) at BU.
 
-# Requirements
-LightGBM requires the use of 64 bit python 3. Required libraries can be installed using:
-
-```bash
-pip install -r requirements.txt
-```
 # Evaluation Instructions (on SCC)
 *I would recommend looking at this: the size of the data, models, and training time are significant*
 
@@ -28,11 +22,18 @@ There are two notebooks available for testing:
 
 # Execution Instructions (code process)
 
-# Feature Engineering
+## Requirements
+LightGBM requires the use of 64 bit python 3. Required libraries can be installed using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Feature Engineering
 Feature engineering was done in SAS.
 
-# Model Training
+## Model Training
 Model training is done by running the "model_training.ipynb" notebook.
 
-# Results Analysis
+## Results Analysis
 Results analysis of the model can be run through the "results.ipynb" notebook.
