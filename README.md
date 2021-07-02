@@ -33,9 +33,9 @@ pip install -r requirements.txt
 ## Downloading Data
 Data is held on: https://www.kaggle.com/netflix-inc/netflix-prize-data
 
-SAS Code to get data for model. To start first need to take all "combined_data" 1-4 in the Kaggle link and replace every ":" with ", ,       "
+SAS Code to get data for model. To start first need to take all "combined_data" 1-4 in the Kaggle link and replace every ":" with ", ,           "
 Also grab the movie titles data from the kaggle (more for interest, we didn't have time to search titles for underlying movie information that could have been useful)
-This is since the dataset is set up weirdly with movies first then user, rating, date in an uneven order behind it. Since it is only 4 "control H commands felt easier than doing more work for formatting input code. 
+This is since the dataset is set up weirdly with movies first then user, rating, date in an uneven order behind it. Since it is only 4 "control H" commands felt easier than doing more complicated and timeconsuming work for formatting input code. 
 
 Then once all code is in the same folder everything else is set in the work environment to not clog up disk space. If you follow the order number of the start digit of the SAS files it will run but after a pretty long time.
 
