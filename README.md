@@ -45,6 +45,7 @@ Feature engineering was done in SAS. Can be viewed in file: 2_Movie_User_Vars
 ## Model Training
 Model training is done by running the "model_training.ipynb" notebook. You will need to change the path to the location data file in line 5 to read from the file output by the SAS workflow. 
  - set the number of threads to the number of CPUs available on the system (more is faster) ~ cell 6.
+ - set the number of iterations ~ I would suggest 100 or so for speed purposes ~ cell 6.
  - set the save location of the model ~ last cell
 
 ## Results Analysis
