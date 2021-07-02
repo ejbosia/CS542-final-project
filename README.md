@@ -43,7 +43,7 @@ Then once all code is in the same folder everything else is set in the work envi
 Feature engineering was done in SAS. Can be viewed in file: 2_Movie_User_Vars
 
 ## Model Training
-Model training is done by running the "model_training.ipynb" notebook.
+Model training is done by running the "model_training.ipynb" notebook. You will need to change the path to the location data file in line 5 to read from the correct file.
 
 ## Results Analysis
 Results analysis of the model can be run through the "results.ipynb" notebook.
